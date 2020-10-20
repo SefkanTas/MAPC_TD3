@@ -9,7 +9,7 @@ public class XMLRapportCommandes implements PrePostVisitor{
 
     @Override
     public void preVisit(GroupeClient groupeClient) {
-        
+
     }
 
     @Override

@@ -1,5 +1,7 @@
 package visitable;
 
-public interface PrePostVisitable {
+import visitors.PrePostVisitor;
 
+public interface PrePostVisitable {
+    void accept(PrePostVisitor prePostVisitor);
 }
